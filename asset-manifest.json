@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolioremake-v2/static/css/main.60962b12.css",
-    "main.js": "/portfolioremake-v2/static/js/main.0ecf72ac.js",
+    "main.js": "/portfolioremake-v2/static/js/main.ff15c77d.js",
     "static/js/787.1a30e2f4.chunk.js": "/portfolioremake-v2/static/js/787.1a30e2f4.chunk.js",
     "static/media/profile.jpg": "/portfolioremake-v2/static/media/profile.50ad79ec557943fde88e.jpg",
     "static/media/wallpaper.png": "/portfolioremake-v2/static/media/wallpaper.829db6963f37c8988d7b.png",
     "index.html": "/portfolioremake-v2/index.html",
     "main.60962b12.css.map": "/portfolioremake-v2/static/css/main.60962b12.css.map",
-    "main.0ecf72ac.js.map": "/portfolioremake-v2/static/js/main.0ecf72ac.js.map",
+    "main.ff15c77d.js.map": "/portfolioremake-v2/static/js/main.ff15c77d.js.map",
     "787.1a30e2f4.chunk.js.map": "/portfolioremake-v2/static/js/787.1a30e2f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60962b12.css",
-    "static/js/main.0ecf72ac.js"
+    "static/js/main.ff15c77d.js"
   ]
 }
