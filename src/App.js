@@ -1,11 +1,14 @@
 import "./App.css";
 import Header from "./components/header";
+import AboutMe from "./components/aboutMe";
+import { AppWrapper } from "./components/styles/appStyles";
 
 function App() {
   return (
-    <section>
+    <AppWrapper>
       <Header />
-    </section>
+      <AboutMe />
+    </AppWrapper>
   );
 }
 

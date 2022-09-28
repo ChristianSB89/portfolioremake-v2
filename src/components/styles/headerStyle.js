@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderShape = styled.section`
+  margin: 0 0 0.5em 0;
   background: linear-gradient(
     180deg,
     #ffffff 0%,
@@ -16,6 +17,8 @@ export const HeaderShape = styled.section`
 export const FlexContainer = styled.section`
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  padding: 2em 0;
 `;
 
 export const ImageStyle = styled.img`
