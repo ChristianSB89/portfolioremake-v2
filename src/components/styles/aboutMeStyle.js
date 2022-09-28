@@ -5,8 +5,10 @@ export const AboutMeWrapper = styled.section`
   padding: 5em 0;
   background: linear-gradient(
     180deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.5) 100%
+    rgba(77, 132, 143, 0.1) 0%,
+    rgba(77, 132, 143, 0.791667) 33.33%,
+    #4d848f 66.67%,
+    rgba(77, 132, 143, 0.1) 100%
   );
   border-radius: 0 0 1em 1em;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

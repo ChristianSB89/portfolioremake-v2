@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const CardStyle = styled.section`
   margin: 0 0.5em;
   padding: 1em;
@@ -7,7 +9,11 @@ export const CardStyle = styled.section`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: rgba(255, 255, 255, 0.21);
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.3px);
