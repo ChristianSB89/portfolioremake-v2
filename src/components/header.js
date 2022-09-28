@@ -12,7 +12,7 @@ function Header() {
   return (
     <HeaderShape>
       <FlexContainer>
-        <ImageStyle src={profile} alt="Christian looking to the side smiling" />
+        {/* <ImageStyle src={profile} alt="Christian looking to the side smiling" /> */}
         <HeaderTextContainer>
           <Name>Christian Sandum Breivik</Name>
           <Profession>Front end | Grafisk</Profession>
