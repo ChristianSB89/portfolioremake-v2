@@ -9,6 +9,7 @@ import NavCard from "./components/cards/navCard";
 import NewsCard from "./components/cards/newCard";
 import PortfolioCard from "./components/cards/portfolioCard";
 import ToDoCard from "./components/cards/todoCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <ToDoCard />
         </CarouselItem>
       </Carousel>
+      <Footer />
     </AppWrapper>
   );
 }
