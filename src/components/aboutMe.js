@@ -21,7 +21,7 @@ function AboutMe() {
           <AboutText>
             Jeg har alltid vært nysgjerrig på koding og har prøvd meg litt i
             Python. Etter mange timer med modifisering av spill og feilsøking i
-            konsoll så fant jeg ut at det var dette jeg ville gjøre.
+            konsoll så fant jeg ut at det var koding jeg ville gjøre.
           </AboutText>
           <AboutText>
             Har vært gamer siden Super Nintendo kom til Norge i 1992. Jeg har
@@ -31,9 +31,9 @@ function AboutMe() {
           </AboutText>
           <AboutText>
             Jobber også en del med 3D modellering, tegner, animerer og lager
-            video grafikk. En annen ting som har fulgt meg gjennom livet er
-            musikk. Jeg er trommeslager og lager musikk på PC med diverse
-            programvarer.
+            video grafikk. Jeg har blant annet laget logoer til band og gamere.
+            En annen ting som har fulgt meg gjennom livet er musikk. Jeg er
+            trommeslager og lager musikk på PC med diverse programvarer.
           </AboutText>
         </TextFlex>
       </AboutFlexBkgd>

@@ -6,7 +6,9 @@ import {
   Name,
   Profession,
 } from "./styles/headerStyle";
-import { StyledGit, StyledLinked, StyledTwitter } from "./styles/iconStyles";
+import { BsGithub } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
 
 function Header() {
   return (
@@ -18,15 +20,16 @@ function Header() {
         </HeaderTextContainer>
       </FlexContainer>
       <IconWrapper>
-        <StyledGit>
-          <a></a>
-        </StyledGit>
-        <StyledLinked>
-          <a></a>
-        </StyledLinked>
-        <StyledTwitter>
-          <a></a>
-        </StyledTwitter>
+        <a href="https://github.com/ChristianSB89" target="_blank">
+          <BsGithub color="white" size={40} opacity="80%" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/chris-sabre/" target="_blank">
+          <FaLinkedin color="white" size={40} opacity="80%" />
+        </a>
+        <a href="https://twitter.com/chrissanbrei" target="_blank">
+          <BsTwitter color="white" size={40} opacity="80%" />
+        </a>
       </IconWrapper>
     </HeaderShape>
   );

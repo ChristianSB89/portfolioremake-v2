@@ -17,9 +17,14 @@ export const HeaderShape = styled.section`
 
 export const IconWrapper = styled.section`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 1.5em 3em 0 3em;
+  margin: 0;
+  @media (min-width: 1440px) {
+    margin: 0 30em;
+    justify-content: space-evenly;
+  }
 `;
 
 export const FlexContainer = styled.section`
