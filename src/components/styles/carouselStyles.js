@@ -6,8 +6,8 @@ export const CarouselStyle = styled.div`
   background: linear-gradient(
     180deg,
     rgba(77, 132, 143, 0) 0%,
-    rgba(77, 132, 143, 0.791667) 33.33%,
-    #4d848f 66.67%,
+    rgba(77, 132, 143, 0.7) 10%,
+    rgba(77, 132, 143, 0.7) 70%,
     rgba(77, 132, 143, 0) 100%
   );
   border-radius: 0 0 1em 1em;
