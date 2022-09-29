@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioremake-v2/static/css/main.60962b12.css",
-    "main.js": "/portfolioremake-v2/static/js/main.5fb4716f.js",
+    "main.css": "/portfolioremake-v2/static/css/main.789db892.css",
+    "main.js": "/portfolioremake-v2/static/js/main.f51deff5.js",
     "static/js/787.1a30e2f4.chunk.js": "/portfolioremake-v2/static/js/787.1a30e2f4.chunk.js",
     "static/media/profile.jpg": "/portfolioremake-v2/static/media/profile.50ad79ec557943fde88e.jpg",
     "static/media/drumkit.png": "/portfolioremake-v2/static/media/drumkit.bba804cfce130b33a893.png",
@@ -10,12 +10,12 @@
     "static/media/wallpaper.png": "/portfolioremake-v2/static/media/wallpaper.829db6963f37c8988d7b.png",
     "static/media/to-doList.png": "/portfolioremake-v2/static/media/to-doList.913c68fa2a60e8b43ed0.png",
     "index.html": "/portfolioremake-v2/index.html",
-    "main.60962b12.css.map": "/portfolioremake-v2/static/css/main.60962b12.css.map",
-    "main.5fb4716f.js.map": "/portfolioremake-v2/static/js/main.5fb4716f.js.map",
+    "main.789db892.css.map": "/portfolioremake-v2/static/css/main.789db892.css.map",
+    "main.f51deff5.js.map": "/portfolioremake-v2/static/js/main.f51deff5.js.map",
     "787.1a30e2f4.chunk.js.map": "/portfolioremake-v2/static/js/787.1a30e2f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60962b12.css",
-    "static/js/main.5fb4716f.js"
+    "static/css/main.789db892.css",
+    "static/js/main.f51deff5.js"
   ]
 }
