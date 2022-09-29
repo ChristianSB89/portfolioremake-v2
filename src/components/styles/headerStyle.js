@@ -40,7 +40,6 @@ export const FlexContainer = styled.section`
   );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: red 2px solid;
   @media (min-width: 1440px) {
     justify-content: flex-start;
   }
