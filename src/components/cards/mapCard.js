@@ -5,19 +5,23 @@ import {
   CardStyle,
   ProjectBtn,
   ProjectImg,
+  ProjectTitle,
+  TextContainer,
+  ProjectText,
 } from "../styles/cardStyles";
 
 function MapCard() {
   return (
     <CardStyle>
       <ProjectImg src={map} alt="A map" />
-      <section>
-        <h2>Kart API</h2>
-        <p>
-          Hentet kart API fra <a href="https://leafletjs.com/">leafletjs.com</a>{" "}
+      <TextContainer>
+        <ProjectTitle>Kart API</ProjectTitle>
+        <ProjectText>
+          Hentet kart API fra <br />
+          <a href="https://leafletjs.com/">leafletjs.com</a> <br />
           for å lære om henting av API.
-        </p>
-      </section>
+        </ProjectText>
+      </TextContainer>
       <BtnSection>
         <ProjectBtn
           href="https://christiansb89.github.io/Map-Test/"

@@ -5,19 +5,24 @@ import {
   ProjectBtn,
   ProjectImg,
   BtnSection,
+  TextContainer,
+  ProjectTitle,
+  ProjectText,
 } from "../styles/cardStyles";
 
 function ToDoCard() {
   return (
     <CardStyle>
       <ProjectImg src={ToDo} alt="An online to do list" />
-      <section>
-        <h2>To-do list</h2>
-        <p>
-          Blant de første JavaScript prosjektene der man skulle kunne sortere,
-          fjerne enkelte ting og hele listen.
-        </p>
-      </section>
+      <TextContainer>
+        <ProjectTitle>To-do list</ProjectTitle>
+        <ProjectText>
+          Blant de første <br />
+          JavaScript prosjektene. <br />
+          Her skal man kunne <br />
+          sortere og fjerne ting.
+        </ProjectText>
+      </TextContainer>
       <BtnSection>
         <ProjectBtn
           href="https://christiansb89.github.io/todo-list/"

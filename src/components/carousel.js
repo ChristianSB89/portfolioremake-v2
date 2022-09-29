@@ -5,6 +5,8 @@ import {
   IndicatorStyle,
   IndicatorBtn,
   Inner,
+  PrevNextFlex,
+  ActiveBtns,
 } from "./styles/carouselStyles";
 
 export const CarouselItem = ({ children, width }) => {
@@ -34,32 +36,36 @@ const Carousel = ({ children }) => {
         })}
       </Inner>
       <IndicatorStyle>
-        <IndicatorBtn
-          onClick={() => {
-            updateIndex(activeIndex - 1);
-          }}
-        >
-          Prev
-        </IndicatorBtn>
-        {React.Children.map(children, (child, index) => {
-          return (
-            <IndicatorBtn
-              className={`${index === activeIndex ? "active" : ""}`}
-              onClick={() => {
-                updateIndex(index);
-              }}
-            >
-              {index + 1}
-            </IndicatorBtn>
-          );
-        })}
-        <IndicatorBtn
-          onClick={() => {
-            updateIndex(activeIndex + 1);
-          }}
-        >
-          Next
-        </IndicatorBtn>
+        <PrevNextFlex>
+          <IndicatorBtn
+            onClick={() => {
+              updateIndex(activeIndex - 1);
+            }}
+          >
+            Forrige
+          </IndicatorBtn>
+          <IndicatorBtn
+            onClick={() => {
+              updateIndex(activeIndex + 1);
+            }}
+          >
+            Neste
+          </IndicatorBtn>
+        </PrevNextFlex>
+        <ActiveBtns>
+          {React.Children.map(children, (child, index) => {
+            return (
+              <IndicatorBtn
+                className={`${index === activeIndex ? "active" : ""}`}
+                onClick={() => {
+                  updateIndex(index);
+                }}
+              >
+                {index + 1}
+              </IndicatorBtn>
+            );
+          })}
+        </ActiveBtns>
       </IndicatorStyle>
     </CarouselStyle>
   );

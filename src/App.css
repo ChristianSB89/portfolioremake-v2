@@ -1,5 +1,5 @@
 body {
   background-image: url(./components/img/wallpaper.png);
-  position: sticky;
-  z-index: -999;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

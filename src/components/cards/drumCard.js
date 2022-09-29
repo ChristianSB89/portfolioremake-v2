@@ -5,6 +5,9 @@ import {
   ProjectBtn,
   ProjectImg,
   BtnSection,
+  ProjectTitle,
+  ProjectText,
+  TextContainer,
 } from "../styles/cardStyles";
 
 function DrumsCard() {
@@ -14,13 +17,14 @@ function DrumsCard() {
         src={drumkit}
         alt="Circles representing drumpads with my own drumkit in the background"
       />
-      <section>
-        <h2>Trommer i JavaScript</h2>
-        <p>
-          Trommesett lagd i JavaScript, der man kan trykke både med musemarkøren
-          og med tastaturet.
-        </p>
-      </section>
+      <TextContainer>
+        <ProjectTitle>Trommer i JavaScript</ProjectTitle>
+        <ProjectText>
+          Trommesett lagd i JavaScript,
+          <br /> der man kan trykke med både <br />
+          musemarkøren og tastaturet.
+        </ProjectText>
+      </TextContainer>
       <BtnSection>
         <ProjectBtn
           href="https://christiansb89.github.io/drumkit-javascript/"

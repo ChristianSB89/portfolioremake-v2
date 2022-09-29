@@ -5,19 +5,23 @@ import {
   CardStyle,
   ProjectBtn,
   ProjectImg,
+  ProjectText,
+  ProjectTitle,
+  TextContainer,
 } from "../styles/cardStyles";
 
 function NewsCard() {
   return (
     <CardStyle>
       <ProjectImg src={dolingen} alt="A fictional news site" />
-      <section>
-        <h2>Dølingen</h2>
-        <p>
-          Første forsøk på Html og CSS. Her har jeg bare prøvd meg fram på alt
-          fra Flexbox til å lenke til andre sider.
-        </p>
-      </section>
+      <TextContainer>
+        <ProjectTitle>Dølingen</ProjectTitle>
+        <ProjectText>
+          Første forsøk på Html og CSS. <br />
+          Her har jeg bare prøvd meg <br />
+          fram i HTML og CSS.
+        </ProjectText>
+      </TextContainer>
       <BtnSection>
         <ProjectBtn
           href="https://christiansb89.github.io/Dolingen/"

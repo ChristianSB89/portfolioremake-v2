@@ -2,7 +2,6 @@ import {
   FlexContainer,
   HeaderShape,
   HeaderTextContainer,
-  ImageStyle,
   Name,
   Profession,
 } from "./styles/headerStyle";

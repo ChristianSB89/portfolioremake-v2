@@ -23,7 +23,8 @@ export const AboutFlexBkgd = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-start;
   background: linear-gradient(
     180deg,
     #ffffff 0%,
@@ -36,6 +37,7 @@ export const AboutFlexBkgd = styled.section`
 `;
 
 export const ImageStyle = styled.img`
+  margin: 1.2em 0;
   border-radius: 1em;
   width: 5em;
   border: 1px solid rgba(255, 255, 255, 0.3);

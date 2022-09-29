@@ -2,6 +2,20 @@ import styled from "styled-components";
 
 export const CarouselStyle = styled.div`
   overflow: hidden;
+  margin: 0.5em 0;
+  background: linear-gradient(
+    180deg,
+    rgba(77, 132, 143, 0.1) 0%,
+    rgba(77, 132, 143, 0.791667) 33.33%,
+    #4d848f 66.67%,
+    rgba(77, 132, 143, 0.1) 100%
+  );
+  border-radius: 1em;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(77, 132, 143, 0.3);
+  color: #4d848f;
 `;
 
 export const Inner = styled.div`
@@ -10,33 +24,29 @@ export const Inner = styled.div`
 `;
 
 export const CarouselItemStyle = styled.div`
+  margin: 0.5em 0;
   padding: 1em 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   height: auto;
-  background: linear-gradient(
-    180deg,
-    rgba(77, 132, 143, 0.1) 0%,
-    rgba(77, 132, 143, 0.791667) 33.33%,
-    #4d848f 66.67%,
-    rgba(77, 132, 143, 0.1) 100%
-  );
-  border-radius: 0 0 1em 1em;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(77, 132, 143, 0.3);
-  color: #4d848f;
 `;
 
 export const IndicatorStyle = styled.div`
   padding: 2em 0;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
+export const PrevNextFlex = styled.section`
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 `;
 
 export const IndicatorBtn = styled.button`
+  display: flex;
   text-decoration: none;
   color: #0a323b;
   background: rgba(255, 255, 255, 0.2);
@@ -55,4 +65,10 @@ export const IndicatorBtn = styled.button`
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
   }
+`;
+
+export const ActiveBtns = styled.section`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;

@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
+// Styling of the 'body' of the card
+
 export const CardStyle = styled.section`
   margin: 0 0.5em;
   padding: 1em;
   text-align: center;
-  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,7 +37,25 @@ export const ProjectFrame = styled.iframe`
   border-radius: 16px;
 `;
 
-// Project links (buttons in card)
+// Text styling
+
+export const TextContainer = styled.section`
+  width: 100%;
+  margin: 0;
+  padding: 0.1em;
+`;
+
+export const ProjectTitle = styled.h2`
+  margin: 0.5em;
+  font-size: 18px;
+`;
+
+export const ProjectText = styled.p`
+  font-size: 16px;
+  text-align: center;
+`;
+
+// Project links and buttons
 
 export const ProjectBtn = styled.a`
   text-decoration: none;
@@ -60,5 +79,6 @@ export const ProjectBtn = styled.a`
 
 export const BtnSection = styled.section`
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 `;
