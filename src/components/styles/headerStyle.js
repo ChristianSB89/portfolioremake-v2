@@ -17,6 +17,13 @@ export const HeaderShape = styled.section`
   border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
+export const IconWrapper = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 3em 0 3em;
+`;
+
 export const FlexContainer = styled.section`
   padding: 0.5em 0;
   display: flex;
