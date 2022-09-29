@@ -5,16 +5,14 @@ export const AboutMeWrapper = styled.section`
   padding: 5em 0;
   background: linear-gradient(
     180deg,
-    rgba(77, 132, 143, 0.1) 0%,
+    rgba(77, 132, 143, 0) 0%,
     rgba(77, 132, 143, 0.791667) 33.33%,
     #4d848f 66.67%,
-    rgba(77, 132, 143, 0.1) 100%
+    rgba(77, 132, 143, 0) 100%
   );
   border-radius: 0 0 1em 1em;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 export const AboutFlexBkgd = styled.section`
@@ -30,17 +28,15 @@ export const AboutFlexBkgd = styled.section`
     #ffffff 0%,
     rgba(255, 255, 255, 0.5) 100%
   );
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 export const ImageStyle = styled.img`
   margin: 1.2em 0;
   border-radius: 1em;
   width: 5em;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
 `;
 
 export const TextFlex = styled.section`

@@ -19,7 +19,6 @@ export const CardStyle = styled.section`
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.3px);
   -webkit-backdrop-filter: blur(4.3px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 // Image and iFrame styling (card)
