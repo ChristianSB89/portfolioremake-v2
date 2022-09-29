@@ -5,7 +5,7 @@ import {
   CardStyle,
   ProjectBtn,
   ProjectImg,
-} from "../styled-components/styling";
+} from "../styles/cardStyles";
 
 function MapCard() {
   return (

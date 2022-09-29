@@ -5,7 +5,7 @@ import {
   ProjectBtn,
   ProjectImg,
   BtnSection,
-} from "../styled-components/styling";
+} from "../styles/cardStyles";
 
 function ToDoCard() {
   return (

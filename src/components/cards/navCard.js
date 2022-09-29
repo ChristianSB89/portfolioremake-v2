@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  CardStyle,
-  ProjectBtn,
-  ProjectFrame,
-} from "../styled-components/styling";
+import { CardStyle, ProjectBtn, ProjectFrame } from "../styles/cardStyles";
 
 function NavCard() {
   return (
