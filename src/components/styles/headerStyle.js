@@ -28,6 +28,7 @@ export const IconWrapper = styled.section`
 `;
 
 export const FlexContainer = styled.section`
+  margin: 0;
   padding: 0.5em 0;
   display: flex;
   align-items: center;
@@ -39,6 +40,19 @@ export const FlexContainer = styled.section`
   );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  border: red 2px solid;
+  @media (min-width: 1440px) {
+    justify-content: flex-start;
+  }
+`;
+
+export const LogoStyle = styled.img`
+  width: 4em;
+  opacity: 90%;
+  margin-right: 1em;
+  @media (min-width: 1440px) {
+    margin-left: 35em;
+  }
 `;
 
 export const ImageStyle = styled.img`

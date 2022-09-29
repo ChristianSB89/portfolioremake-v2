@@ -3,17 +3,20 @@ import {
   HeaderShape,
   HeaderTextContainer,
   IconWrapper,
+  LogoStyle,
   Name,
   Profession,
 } from "./styles/headerStyle";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import logo from "./img/logo.png";
 
 function Header() {
   return (
     <HeaderShape>
       <FlexContainer>
+        <LogoStyle src={logo} />
         <HeaderTextContainer>
           <Name>Christian Sandum Breivik</Name>
           <Profession>Front end | Grafisk</Profession>
