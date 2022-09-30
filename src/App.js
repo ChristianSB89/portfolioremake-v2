@@ -10,6 +10,7 @@ import NewsCard from "./components/cards/newCard";
 import PortfolioCard from "./components/cards/portfolioCard";
 import ToDoCard from "./components/cards/todoCard";
 import Footer from "./components/Footer";
+import MinecraftCard from "./components/cards/minecraftCard";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
         </CarouselItem>
         <CarouselItem>
           <ToDoCard />
+        </CarouselItem>
+        <CarouselItem>
+          <MinecraftCard />
         </CarouselItem>
       </Carousel>
       <Footer />
