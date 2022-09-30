@@ -5,7 +5,7 @@ import {
   TextFlex,
 } from "./styles/aboutMeStyle";
 import { ImageStyle } from "./styles/aboutMeStyle";
-import profile from "./img/profile.jpg";
+import profile from "./img/profile.png";
 
 function AboutMe() {
   return (

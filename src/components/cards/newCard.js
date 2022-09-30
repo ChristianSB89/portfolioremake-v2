@@ -17,6 +17,8 @@ function NewsCard() {
       <TextContainer>
         <ProjectTitle>Dølingen</ProjectTitle>
         <ProjectText>
+          Fiktiv avis jeg lagde.
+          <br />
           Første forsøk på Html og CSS. <br />
           Her har jeg bare prøvd meg <br />
           fram i HTML og CSS.
