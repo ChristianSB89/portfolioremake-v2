@@ -1,8 +1,9 @@
 import React from "react";
+import navApp from "../img/nav-app.png";
 import {
   CardStyle,
   ProjectBtn,
-  ProjectFrame,
+  ProjectImg,
   ProjectText,
   ProjectTitle,
   TextContainer,
@@ -11,10 +12,7 @@ import {
 function NavCard() {
   return (
     <CardStyle>
-      <ProjectFrame
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fo0Kyv62TbP5EhmOE9XqAo0%2FNAV-app%3Fnode-id%3D0%253A1"
-        allowfullscreen
-      ></ProjectFrame>
+      <ProjectImg src={navApp} />
       <TextContainer>
         <ProjectTitle>Workshop Prosjekt - Nav</ProjectTitle>
         <ProjectText>

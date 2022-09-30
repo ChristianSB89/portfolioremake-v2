@@ -1,20 +1,18 @@
 import React from "react";
+import portfolio from "../img/portfolio.png";
 import {
   CardStyle,
   ProjectBtn,
-  ProjectFrame,
   ProjectTitle,
   TextContainer,
   ProjectText,
+  ProjectImg,
 } from "../styles/cardStyles";
 
 function PortfolioCard() {
   return (
     <CardStyle>
-      <ProjectFrame
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FhnixYAjWAbIXgdrQr3vE79%2Fportfolio-wireframe%3Fnode-id%3D72%253A680"
-        allowfullscreen
-      ></ProjectFrame>
+      <ProjectImg src={portfolio} />
       <TextContainer>
         <ProjectTitle>Design for denne siden</ProjectTitle>
         <ProjectText>

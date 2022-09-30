@@ -29,13 +29,6 @@ export const ProjectImg = styled.img`
   border-radius: 16px;
 `;
 
-export const ProjectFrame = styled.iframe`
-  width: 15em;
-  height: 15em;
-  margin-top: 0.5em;
-  border-radius: 16px;
-`;
-
 // Text styling
 
 export const TextContainer = styled.section`
