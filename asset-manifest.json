@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolioremake-v2/static/css/main.789db892.css",
-    "main.js": "/portfolioremake-v2/static/js/main.8e635b59.js",
+    "main.js": "/portfolioremake-v2/static/js/main.0a2f3a59.js",
     "static/js/787.1a30e2f4.chunk.js": "/portfolioremake-v2/static/js/787.1a30e2f4.chunk.js",
-    "static/media/profile.jpg": "/portfolioremake-v2/static/media/profile.50ad79ec557943fde88e.jpg",
+    "static/media/profile.png": "/portfolioremake-v2/static/media/profile.cbb45669835857a2eb2a.png",
+    "static/media/map.png": "/portfolioremake-v2/static/media/map.21fa8d103fbd9e8caf18.png",
+    "static/media/dolingen_thumb.png": "/portfolioremake-v2/static/media/dolingen_thumb.836fc63efdb706cc0722.png",
     "static/media/portfolio.png": "/portfolioremake-v2/static/media/portfolio.d0612e7cc4ba0c6dba82.png",
     "static/media/drumkit.png": "/portfolioremake-v2/static/media/drumkit.bba804cfce130b33a893.png",
-    "static/media/map.png": "/portfolioremake-v2/static/media/map.fce8063f6f2dc1dac324.png",
     "static/media/nav-app.png": "/portfolioremake-v2/static/media/nav-app.daf6c12533dab3c33042.png",
-    "static/media/dolingen_thumb.png": "/portfolioremake-v2/static/media/dolingen_thumb.1ca1dc1d44f6a28da07b.png",
+    "static/media/to-doList.png": "/portfolioremake-v2/static/media/to-doList.01923a9a1d7e37aa2301.png",
     "static/media/minecraft-clone.png": "/portfolioremake-v2/static/media/minecraft-clone.fbaa8725a7d0ac4787fa.png",
     "static/media/wallpaper.png": "/portfolioremake-v2/static/media/wallpaper.829db6963f37c8988d7b.png",
     "static/media/logo.png": "/portfolioremake-v2/static/media/logo.8ccce0f7c9ef5ccf262e.png",
-    "static/media/to-doList.png": "/portfolioremake-v2/static/media/to-doList.913c68fa2a60e8b43ed0.png",
     "index.html": "/portfolioremake-v2/index.html",
     "main.789db892.css.map": "/portfolioremake-v2/static/css/main.789db892.css.map",
-    "main.8e635b59.js.map": "/portfolioremake-v2/static/js/main.8e635b59.js.map",
+    "main.0a2f3a59.js.map": "/portfolioremake-v2/static/js/main.0a2f3a59.js.map",
     "787.1a30e2f4.chunk.js.map": "/portfolioremake-v2/static/js/787.1a30e2f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.789db892.css",
-    "static/js/main.8e635b59.js"
+    "static/js/main.0a2f3a59.js"
   ]
 }
